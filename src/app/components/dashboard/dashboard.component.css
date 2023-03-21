@@ -37,8 +37,17 @@ input::placeholder{
   width: 45%;
   text-align: left;
 }
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 480px) {
+
+  div color{
+    display: flex;
+    flex-flow: row wrap-revers
+  }
   .jumbotron input{
-    background-color: #fafefc;
+    background-color: #93bb72;
+  }
+
+  .jumbotron button {
+    background-color: #c8deb8;
   }
 }
